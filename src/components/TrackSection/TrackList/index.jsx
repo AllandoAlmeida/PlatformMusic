@@ -1,4 +1,4 @@
-import { TrackCard } from "./TrackCard"
+import { TrackCard } from "../TrackCard"
 import { StyledDiv } from "./styles"
 
 export const TrackList = ({ tracks }) => {
