@@ -5,13 +5,14 @@ export const StyledUl = styled.ul`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  flex: 1 0 230px;
   height: max-content;
   border: 1px solid var(--color-blue-600);
   box-shadow: 0.5px 0.5px 0.5px 0px var(--color-blue-600);
   background-color: transparent;
   border-radius: 5px;
   color: white;
-  width: 180px;
+  width: 40%;
   height: 180px;
 `;
 

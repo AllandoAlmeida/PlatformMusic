@@ -1,12 +1,15 @@
-import { useState } from "react"
+
+import { useState } from "react";
 import { StyledHeader } from "./styles";
 
 
-export const Header = () =>{
- 
+export const Header = ({callback}) =>{
+  const [inputSearch, setInputSearch] = useState('');
+  
+  console.log('header')
   const handleSubmit = (event) =>{
     event.preventDefault();
-    console.log('Enter', inputSearch)
+    callback(inputSearch)
   }
 
   return(
